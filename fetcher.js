@@ -13,7 +13,7 @@ const fetchPage = (url, file, done) => {
     
     // console.log("statusCode:", response && response.statusCode); // Print the response status code IF a response was received
     if (response) {
-      if (response.statusCode == 200) {
+      if (response.statusCode === 200) {
         // console.log("body:", body);
         // console.log("fetchPage: got it!");
         // callback on success
